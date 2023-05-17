@@ -1,0 +1,199 @@
+body {
+    background-color: #E76161;
+}
+.calc {
+    margin: auto;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    width: 21%;
+    height: 560px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc .logo-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 2px;
+}
+
+.maininput {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 90px;
+    width: 97%;
+    font-size: 1.8rem;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.numbtn {
+    padding: 30px 35px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.numbtn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.calculate {
+    background-color: #f0754c;
+    color: #fff;
+    padding: 30px 35px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.calculate:hover {
+    background-color: #f74b12;
+    color: #fff;
+}
+
+.clear {
+    background-color: #f01a3e;
+    color: #fff;
+    padding: 30px 35px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.clear:hover {
+    background-color: #ff002b;
+    color: #fff;
+}
+
+.equal {
+    background-color: #5b7c7a;
+    color: #fff;
+    padding: 30px 35px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.equal:hover {
+    background-color: #235551;
+    color: #fff;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1669px) {
+    .calc {
+        width: 21%;
+        height: auto;
+    }
+    
+    .numbtn, .calculate, .clear, .equal {
+        padding: 15px;
+        font-size: medium;
+        width: 21%;
+    }
+    
+    .maininput {
+        height: 60px;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .calc {
+        width: 25%;
+        height: auto;
+    }
+    
+    .numbtn, .calculate, .clear, .equal {
+        padding: 15px;
+        font-size: medium;
+        width: 22%;
+    }
+    
+    .maininput {
+        height: 60px;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1097px) {
+    .calc {
+        width: 30%;
+        height: auto;
+    }
+    
+    .numbtn, .calculate, .clear, .equal {
+        padding: 15px;
+        font-size: medium;
+        width: 21%;
+    }
+    
+    .maininput {
+        width: 90%;
+        height: 60px;
+        font-size: 1.2rem;
+    }
+
+    .logo-title {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .calc {
+        width: 40%;
+        height: auto;
+    }
+    
+    .numbtn, .calculate, .clear, .equal {
+        padding: 15px;
+        font-size: medium;
+        width: 20%;
+    }
+    
+    .maininput {
+        width: 85%;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjust the size of the calculator */
+    .calc {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    /* Adjust the size of the input field */
+    .maininput {
+        width: 85%;
+        height: 80px;
+        font-size: 3rem;
+    }
+    
+    /* Adjust the size of the buttons */
+    .numbtn,
+    .calculate,
+    .clear,
+    .equal {
+        padding: 15px 20px;
+        font-size: small;
+        width: 20%;
+    }
+
+    .logo-title {
+        font-size: 1.5em;
+    }
+}
