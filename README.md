@@ -4,6 +4,6 @@
 > 
 > This calculator app can  be used to calculate simple mathematical problems such as addition, subtraction, multiplication, and division.
 > 
-> Website Link: *[PHP Calculator Website](https://php-calculator-app.000webhostapp.com/)*
+> Website Link: *[https://php-calculator-app.000webhostapp.com/](https://php-calculator-app.000webhostapp.com/)*
 
-[![PHP Calculator](PhpCalculator.png)](https://php-calculator-app.000webhostapp.com/) 
+[![PHP Calculator](PhpCalculator.PNG)](https://php-calculator-app.000webhostapp.com/) 
