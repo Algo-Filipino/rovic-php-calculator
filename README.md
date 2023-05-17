@@ -1,4 +1,4 @@
-# EvaluTest (Online Examination System)
+# PHP Calculator (Simple Responsive Calculator Application)
 
 > This is a simple PHP Calculator App that was developed using only HTML, CSS, and PHP.
 > 
